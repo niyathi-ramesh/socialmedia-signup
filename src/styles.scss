@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("./assets/fonts/Raleway/Raleway-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Pacifico-Regular";
+  src: url("./assets/fonts/Pacifico/Pacifico-Regular.ttf");
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway-Regular", monospace;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.mb-40 {
+  margin-bottom: 40px !important;
+}

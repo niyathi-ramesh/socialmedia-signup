@@ -1,0 +1,11 @@
+<div class="auth-container">
+  <div class="auth-innner">
+    <div class="main-text">
+      <p>{{ mainText }}</p>
+    </div>
+    <mat-card class="form-container">
+      <h1 class="mb-40">{{ header }}</h1>
+      <ng-content select="[authForm]"></ng-content>
+    </mat-card>
+  </div>
+</div>

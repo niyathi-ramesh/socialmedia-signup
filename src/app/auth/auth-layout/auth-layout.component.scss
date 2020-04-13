@@ -1,0 +1,29 @@
+.auth-container {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../../assets/images/bg.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.auth-innner {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1600px;
+  margin: auto;
+}
+.main-text {
+  font-size: 4rem;
+  color: #fff;
+  width: 40%;
+  line-height: 1.4;
+  margin-bottom: 15%;
+  font-family: "Pacifico-Regular", cursive;
+}
+.form-container {
+  width: 60%;
+  max-width: 500px;
+  padding: 50px 40px 70px;
+}
